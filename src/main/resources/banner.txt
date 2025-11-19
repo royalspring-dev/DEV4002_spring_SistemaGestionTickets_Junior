@@ -5,10 +5,7 @@
 |  |\  \----.|  `--'  |     |  |  /  _____  \  |  `----.   .----)   |   |  |      |  |\  \----.|  | |  |\   | |  |__| |
 | _| `._____| \______/      |__| /__/     \__\ |_______|   |_______/    | _|      | _| `._____||__| |__| \__|  \______|
 
-Proyecto: ${application.app.title}
-Versión proyecto:  ${application.app.version}
+${application.app.title} versión ${application.app.version}
 ${application.app.description}
-Spring Boot Version  --> ${spring-boot.version}
-Java Version --> ${java.version}
-Java Runtime Version --> ${java.runtime.version}
-Desarrollado por: ✅✅✅✅✅✅✅✅✅✅✅✅ ${application.app.developer} ✅✅✅✅✅✅✅✅✅✅✅✅
+Powered by Spring Boot ${spring-boot.version}
+Desarrollado por:  ${application.app.developer}
